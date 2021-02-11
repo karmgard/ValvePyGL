@@ -1,0 +1,26 @@
+# Format: f,filename \n i,x, y, z, phi, theta, alpha
+# anything starting with '#' is a comment line
+#
+f,models/inlet_spring.obj
+i,0, 0, 0.0, 0, 0, 0.75
+#
+f,models/outlet_spring.obj
+i,0, 0, 0.0, 0, 0, 0.75
+#
+f,models/inlet_plug_assembly.obj
+i,0, 0, -1.06, 0.0, 0.0, 0.5
+#
+f,models/outlet_plug_assembly.obj
+i,0, 0, +0.945, 0,0, 0.5
+#
+f,models/lower_sleeve.obj
+i,0, 0, 0.0, 0,0, 0.5
+#
+f,models/upper_sleeve.obj
+i,0, 0, 0.0, 0,0, 0.5
+#
+f,models/vessel.obj
+i,0, 0.0, -0.075, 0.0,180.0, 0.25
+#
+f,models/gasket.obj
+i, 0, 0, -0.9435, 0.0, 0.0, 0.25

@@ -1,0 +1,37 @@
+#
+# Run Control Parameters
+#
+# ######### Internal parameters -- you really should not remove these ####### #
+#
+
+int VERBOSE			= 0     	# Program noises
+
+bool IDLEMODE			= true		# Update window when idle? Or on a schedule?
+
+bool FULLSCREEN			= false		# Start in fullscreen mode?
+
+int TIMEOUT_INTERVAL		= 5		# If updating by timer, how long between updates?
+
+long SEED			= 0
+     						# Seed for the random number generator
+     				  		# The seed is taken from /dev/random at
+						# initialization, and is printed to the terminal
+						# If you want to for a repeat of a run, you
+						# can override /dev/random and force the seed
+						# to this number.
+
+###################### External user-defined parameters ####################
+#                                                                          #
+# You can define whatever parameters you need here, and they're accessible #
+# through the parameters functions as params->get<TYPE>("NAME")            #
+#                                                                          #
+############################################################################
+
+int WIDTH			= 800		# Width of the active area
+int HEIGHT			= 600		# Length of the active area
+    				  		# (these two are window parameters also)
+string MODEL_FILE		= models.lis
+
+bool SHOW_AXES			= false		# Show the XYZ cordinate axes?
+
+#EOF					# End-Of-File marker.

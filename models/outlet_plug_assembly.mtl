@@ -1,0 +1,22 @@
+# Blender MTL File: 'outlet_plug_assembly.blend'
+# Material Count: 2
+
+newmtl magnet_material
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 0.923445
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni -1.000000
+d 1.000000
+illum 2
+
+newmtl outlet_plug_material
+Ns 96.078431
+Ka 0.500000 0.500000 0.500000
+Kd 0.984314 1.000000 0.286274
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni -1.000000
+d 1.000000
+illum 2
